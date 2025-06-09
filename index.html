@@ -33,9 +33,9 @@
     </div>
 
     <div class="content-overlay">
-        <img src="/img/evoleus logo.svg" alt="evoleus logo" data-cue="fadeIn" data-duration="2000">
-        <h1 data-cue="fadeIn" data-delay="700" data-duration="2000">shaping brands for the AI era</h1>
-        <p class="intro" data-cue="fadeIn" data-delay="1400" data-duration="2000">We're a next-generation strategic
+        <img src="/img/evoleus logo.svg" alt="evoleus logo" data-cue="fadeIn">
+        <h1 data-cue="fadeIn" data-delay="700">shaping brands for the AI era</h1>
+        <p class="intro" data-cue="fadeIn" data-delay="1400">We're a next-generation strategic
             brand
             agency. Shaped by experience and
             powered by AI, we
@@ -43,15 +43,15 @@
             faster, smarter, more creative branding solutions, without losing human insight, emotion, or attention to
             detail.
             <br /><br />
-            <span data-cue="fadeIn" data-delay="2100" data-duration="2000">Curious to find out more?</span>
+            <span data-cue="fadeIn" data-delay="2100">Curious to find out more?</span>
             <br /><br />
         </p>
 
-        <a class="button" href="#" target="_blank" data-cue="fadeIn" data-delay="2100" data-duration="2000"><span>Get in
+        <a class="button" href="#" target="_blank" data-cue="fadeIn" data-delay="2100"><span>Get in
                 touch</span></a>
 
 
-        <div class="footer-text">
+        <div class="footer-text" data-cue="fadeIn" data-delay="2800">
             <p><span class="companyname">Evoleus Group Limited</span> <span class="companyaddress">71-75 Shelton Street
                     London WC2H 9JQ</span></p>
             <p><a href="/terms">Terms</a></p>
@@ -60,7 +60,12 @@
     </div>
 
     <script src="/scrollcue/scrollCue.min.js"></script>
-    <script>scrollCue.init(); console.log("inital");</script>
+    <script>scrollCue.init(
+            {
+                duration: 2000,
+                percentage: 1
+            }
+        ); </script>
 
 </body>
 
