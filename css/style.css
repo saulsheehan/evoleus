@@ -73,7 +73,6 @@ body {
 .content-overlay {
   padding-top: 14vh;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
 }
 .content-overlay img {
   margin-left: auto;
@@ -81,7 +80,6 @@ body {
 }
 .content-overlay h1 {
   color: white;
-  border: 1px solid red;
   font-size: 25.5px;
   font-weight: 400;
   margin-top: 24px;
@@ -92,7 +90,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.content-overlay .button {
+.content-overlay a.button {
   text-transform: uppercase;
   margin-top: 45px;
   margin-left: auto;
@@ -102,12 +100,23 @@ body {
   border: 1px solid #b6b6b6;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  transition: background 0.35s ease-in-out;
 }
-.content-overlay .button span {
+.content-overlay a.button:hover {
+  background-color: #0090c5;
+  border: 1px solid white;
+}
+.content-overlay a.button:hover span {
+  color: white;
+}
+.content-overlay a.button span {
   width: 100%;
   font-size: 17.5px;
   display: inline-block;
   letter-spacing: 0.1em;
+  color: #b6b6b6;
+  transition: color 0.35s ease-in-out;
 }
 .content-overlay .footer-text {
   position: absolute;
@@ -140,11 +149,13 @@ body {
     line-height: 1.5em;
   }
   .content-overlay .footer-text {
+    z-index: 2;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 12.5px;
     line-height: 1.8em;
+    border: 1px solid blue;
   }
   .content-overlay .footer-text .companyaddress {
     display: block;
@@ -152,6 +163,8 @@ body {
 }
 @media only screen and (max-height: 745px) {
   .content-overlay .footer-text {
+    z-index: 2;
+    border: 1px solid red;
     margin-top: 40px;
     position: relative;
   }
