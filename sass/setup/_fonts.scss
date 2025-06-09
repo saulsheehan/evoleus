@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 17.5px;
+    line-height: 27px;
+    background-color: black;
+    color: #b6b6b6;
+    //letter-spacing: 0.25px;
+    font-weight: 400;
+
+    text-align: center;
+    //@media (min-width: $breakpoint-desktop-min) {
+    //@media (min-width: $breakpoint-tablet-portrait-min) {
+    //    font-size: 20px;
+    //    letter-spacing: 0.5px;
+    //}
+}
+
+
+
+
+.content-overlay {
+    margin-top: 10%;
+    border: 1px solid red;
+
+    h1 {
+        color: white;
+        font-size: 25.5px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    p.main {
+        border: 1px solid blue;
+        width: 545px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
