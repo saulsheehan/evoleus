@@ -2,28 +2,65 @@
 <html lang="en">
 
 <head>
+    <title>Evoleus - Next Generation Brand Agency - AI Branding</title>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>to do</title>
+    <meta name="description"
+        content="Evoleus is a next generation brand agency shaping brands for the AI-era, combining brand experts with powerful AI tools to deliver faster, smarter branding strategies, brand naming and design solutions, all with a human touch…" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="/css/style.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="/scrollcue/scrollCue.css">
+
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
+
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="video/285_background_water_1080p_hd09941080p12000br.mp4" type="video/mp4">
+            <!-- <source src="video/285_background_water_1080p_hd0994.mov" type="video/webm"> -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
     <div class="content-overlay">
-        <img src="/img/evoleus logo.svg" alt="evoleus logo">
-        <h1>shaping brands for the AI era</h1>
-        <p class="main">We’re a next-generation strategic brand agency. Shaped by experience and powered by AI, we
+        <img src="/img/evoleus logo.svg" alt="evoleus logo" data-cue="fadeIn" data-duration="2000">
+        <h1 data-cue="fadeIn" data-delay="750" data-duration="2000">shaping brands for the AI era</h1>
+        <p class="intro" data-cue="fadeIn" data-delay="1500" data-duration="2000">We're a next-generation strategic
+            brand
+            agency. Shaped by experience and
+            powered by AI, we
             deliver
             faster, smarter, more creative branding solutions, without losing human insight, emotion, or attention to
             detail.
             <br /><br />
             Curious to find out more?
+            <br /><br />
         </p>
+
+        <div class="button" data-cue="fadeIn" data-delay="2200" data-duration="2000"><span>Get in touch</span></div>
+
+
+        <div class="footer-text" data-cue="fadeIn" data-delay="2200" data-duration="2000">
+            <p><span class="companyname">Evoleus Group Limited</span> <span class="companyaddress">71-75 Shelton Street
+                    London WC2H 9JQ</span></p>
+            <p><a href="/terms">Terms</a></p>
+            <p class="smaller-footer-text">&copy Evoleus Group 2025</p>
+        </div>
     </div>
+
+    <script src="/scrollcue/scrollCue.min.js"></script>
+    <script>scrollCue.init(); console.log("inital");</script>
+
 </body>
 
 
