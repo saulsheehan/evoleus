@@ -165,8 +165,6 @@ body {
   .content-overlay .footer-text {
     z-index: 2;
     border: 1px solid red;
-    margin-top: 40px;
-    position: relative;
   }
 }
 .video-background {
